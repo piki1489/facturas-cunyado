@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ventas',
-  templateUrl: './ventas.component.html',
-  styleUrls: ['./ventas.component.css']
+  selector: 'app-ventas-b',
+  templateUrl: './ventas-b.component.html',
+  styleUrls: ['./ventas-b.component.css']
 })
-export class VentasComponent {
-
-
+export class VentasBComponent {
   arrVentas: any[]= [{
     cliente:'Juan',
     ciudad:'Alicante',
@@ -55,6 +53,5 @@ export class VentasComponent {
   clear(arrVentas: any) {
     arrVentas.clear();
 }
-
 
 }
